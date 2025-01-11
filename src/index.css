@@ -3,12 +3,12 @@
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #f9f9f9;
+    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px black;
   }
   
-  /* Заголовок */
+ 
   .header {
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
   }
   
   .header h1 {
-    color: #333;
+    color:grey;
     margin-bottom: 10px;
   }
   
@@ -27,7 +27,7 @@
   }
   
   .add-btn {
-    background-color: #4caf50;
+    
     color: white;
     border: none;
     padding: 10px 20px;
@@ -36,18 +36,16 @@
     font-size: 14px;
   }
   
-  .add-btn:hover {
-    background-color: #45a049;
-  }
+ 
   
   .search-input {
     padding: 8px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid orangered;
     border-radius: 5px;
     font-size: 14px;
   }
   
-  /* Основной контент */
+  
   .main-content {
     margin-top: 20px;
   }
@@ -62,11 +60,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color: #fff;
+    background-color: whitesmoke;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid wheat;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px black;
   }
   
   .service-info {
@@ -76,11 +74,11 @@
   
   .service-name {
     font-weight: bold;
-    color: #333;
+    color: black;
   }
   
   .service-password {
-    color: #555;
+    color: seashell;
   }
   
   .service-actions {
